@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Horizon News | هورايزن نيوز</title>
+<meta name="description" content="هورايزن نيوز جريدة رقمية تنقل أهم الأخبار المحلية والعربية والعالمية بسرعة ومصداقية: اقتصاد، رياضة، تكنولوجيا، ثقافة.">
+<link rel="canonical" href="https://horizonnews.com/">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Horizon News">
+<meta property="og:title" content="Horizon News | هورايزن نيوز"><meta property="og:description" content="هورايزن نيوز جريدة رقمية تنقل أهم الأخبار المحلية والعربية والعالمية بسرعة ومصداقية: اقتصاد، رياضة، تكنولوجيا، ثقافة."><meta property="og:url" content="https://horizonnews.com/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Horizon News","alternateName":["هورايزن نيوز","HN"],"url":"https://horizonnews.com/","slogan":"جريدتك لأفق أوسع من الخبر"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500;700&family=Tajawal:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+:root{
+  --bg:#FFFFFF;--surface:#FFFFFF;--ink:#0A0A0A;--muted:#5C5849;--line:#E6E0CE;
+  --accent:#A67812;--sea:#A67812;--hero1:#0A0A0A;--hero2:#2B2618;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0A0A0A;--surface:#141414;--ink:#F5F1E6;--muted:#A8A395;--line:#2E2A20;--accent:#D4A63A;--sea:#D4A63A;--hero1:#000000;--hero2:#26231A;}}
+:root[data-theme="dark"]{--bg:#0A0A0A;--surface:#141414;--ink:#F5F1E6;--muted:#A8A395;--line:#2E2A20;--accent:#D4A63A;--sea:#D4A63A;--hero1:#000000;--hero2:#26231A;}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Tajawal",system-ui,sans-serif;line-height:1.7}
+.wrap{max-width:980px;margin:0 auto;padding:0 18px}
+.brk{background:var(--ink);color:var(--bg);font-size:14px}
+.brk .wrap{display:flex;gap:12px;align-items:center;height:38px;overflow:hidden;white-space:nowrap}
+.brk b{background:var(--accent);color:#0A0A0A;padding:1px 10px;border-radius:4px;flex:none}
+.brk span{overflow:hidden;text-overflow:ellipsis}
+header.top{padding:18px 0 10px;border-bottom:3px solid var(--ink)}
+.brand{display:flex;align-items:center;gap:14px}
+.brand svg{width:64px;height:64px;flex:none}
+.wm{font-family:"Fraunces",Georgia,serif;font-size:clamp(34px,9vw,54px);line-height:1;letter-spacing:-.5px;direction:ltr}
+.wm i{font-style:normal;color:var(--accent)}
+.sub{color:var(--muted);font-size:14px;margin-top:6px}
+.meta{display:flex;justify-content:space-between;align-items:center;margin-top:12px;font-size:14px;color:var(--muted)}
+.abbr{display:inline-flex;align-items:center;gap:8px}
+.abbr em{font-style:normal;font-family:"Fraunces",serif;background:var(--ink);color:var(--bg);padding:0 8px;border-radius:4px;letter-spacing:1px;direction:ltr}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:8px;padding-bottom:8px}
+nav button{font:inherit;font-weight:500;background:none;border:0;color:var(--muted);padding:6px 14px;border-radius:999px;cursor:pointer;white-space:nowrap}
+nav button[aria-pressed="true"]{background:var(--accent);color:#0A0A0A}
+nav button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.lead{margin:22px 0;background:linear-gradient(180deg,var(--hero1),var(--hero2));color:#fff;border-radius:10px;overflow:hidden}
+.lead svg{display:block;width:100%;height:auto}
+.lead .t{padding:18px 20px 22px}
+.lead h1{font-family:"Noto Naskh Arabic",serif;font-size:clamp(26px,6vw,38px);line-height:1.5;margin:6px 0}
+.lead p{margin:0;opacity:.88}
+.tag{font-size:13px;font-weight:700;color:var(--accent)}
+.lead .tag{color:#E8C46A}
+.list{display:grid;gap:0;margin-bottom:30px}
+.item{padding:16px 0;border-bottom:1px solid var(--line)}
+.item h2{font-family:"Noto Naskh Arabic",serif;font-size:22px;line-height:1.55;margin:2px 0 4px}
+.item p{margin:0;color:var(--muted)}
+.item time{font-size:13px;color:var(--muted)}
+.empty{padding:30px 0;color:var(--muted)}
+footer a{color:inherit;margin-inline-start:14px}
+footer{border-top:3px solid var(--ink);padding:22px 0 34px;color:var(--muted);font-size:14px}
+footer .row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+@media (min-width:760px){.list{grid-template-columns:1fr 1fr;column-gap:34px}}
+</style>
+</head>
+<body>
+<div class="brk"><div class="wrap"><b>عاجل</b><span id="ticker"></span></div></div>
+
+<header class="top"><div class="wrap">
+  <div class="brand">
+    <!-- Logo: rising sun over the horizon line -->
+    <svg viewBox="0 0 64 64" role="img" aria-label="شعار هورايزن نيوز">
+      <rect x="1.5" y="1.5" width="61" height="61" rx="13" fill="#0A0A0A" stroke="#D4A63A" stroke-width="3"/>
+      <path d="M14 38a18 18 0 0 1 36 0z" fill="#D4A63A"/>
+      <g stroke="#F0D58A" stroke-width="2.5" stroke-linecap="round"><path d="M32 10v5"/><path d="M13 19l3.5 3.5"/><path d="M51 19l-3.5 3.5"/></g>
+      <rect x="8" y="41" width="48" height="3" rx="1.5" fill="#fff"/>
+      <rect x="16" y="47" width="32" height="3" rx="1.5" fill="#fff" opacity=".6"/>
+      <rect x="24" y="53" width="16" height="3" rx="1.5" fill="#fff" opacity=".35"/>
+    </svg>
+    <div>
+      <div class="wm">Horizon<i>News</i></div>
+      <div class="sub">جريدتك لأفق أوسع من الخبر</div>
+    </div>
+  </div>
+  <div class="meta"><span id="date"></span><span class="abbr">الاختصار <em>HN</em></span></div>
+</div></header>
+
+<nav><div class="wrap" id="tabs"></div></nav>
+
+<main class="wrap">
+  <article class="lead">
+    <svg viewBox="0 0 600 170" aria-hidden="true">
+      <circle cx="300" cy="150" r="70" fill="#D4A63A"/>
+      <rect x="0" y="150" width="600" height="20" fill="#000"/>
+      <rect x="0" y="150" width="600" height="2" fill="#fff" opacity=".8"/>
+    </svg>
+    <div class="t">
+      <span class="tag">الأخبار الرئيسية</span>
+      <h1>انطلاق جريدة هورايزن نيوز: أخبار موثوقة في مكان واحد</h1>
+      <p>نقدّم لك تغطية سريعة ومبسّطة لأهم الأحداث المحلية والعربية والعالمية، على موقعنا وصفحتنا في فيسبوك.</p>
+    </div>
+  </article>
+  <section class="list" id="list" aria-live="polite"></section>
+</main>
+
+<footer><div class="wrap row">
+  <span>© 2026 Horizon News — horizonnews.com</span>
+  <span><a href="/about.html">من نحن</a><a href="/contact.html">اتصل بنا</a><a href="/privacy.html">سياسة الخصوصية</a></span>
+</div></footer>
+
+<script>
+var NEWS=[
+ {c:"محلي",t:"افتتاح مركز جديد للخدمات الحكومية لتسهيل المعاملات",d:"يضم المركز نوافذ موحّدة تختصر وقت إنجاز المعاملات اليومية.",h:"منذ ساعة"},
+ {c:"محلي",t:"خطة لتحسين حركة المرور في المدن الكبرى",d:"إجراءات جديدة تستهدف تخفيف الازدحام في ساعات الذروة.",h:"منذ 3 ساعات"},
+ {c:"اقتصاد",t:"الأسواق تترقب قرارات جديدة بشأن أسعار الفائدة",d:"محللون يتوقعون تقلبات محدودة خلال الأسبوع الحالي.",h:"منذ ساعتين"},
+ {c:"اقتصاد",t:"نمو ملحوظ في قطاع التجارة الإلكترونية",d:"ارتفاع الطلب على التسوق عبر الإنترنت مع اقتراب موسم العروض.",h:"منذ 5 ساعات"},
+ {c:"رياضة",t:"قمة منتظرة في الجولة المقبلة من الدوري",d:"الفريقان يدخلان المباراة بحثاً عن الصدارة.",h:"منذ 4 ساعات"},
+ {c:"تكنولوجيا",t:"أدوات الذكاء الاصطناعي تدخل غرف الأخبار",d:"كيف تغيّر التقنية طريقة جمع الخبر وتدقيقه ونشره.",h:"منذ 6 ساعات"},
+ {c:"عالم",t:"قمة دولية تبحث ملفات المناخ والطاقة",d:"قادة من عدة دول يناقشون خطوات عملية لخفض الانبعاثات.",h:"منذ 7 ساعات"},
+ {c:"ثقافة",t:"معرض الكتاب يستقبل آلاف الزوار في يومه الأول",d:"فعاليات وندوات وتوقيعات لأحدث الإصدارات.",h:"أمس"}
+];
+var CATS=["الكل","محلي","اقتصاد","رياضة","تكنولوجيا","عالم","ثقافة"];
+var cur="الكل";
+function draw(){
+  var l=document.getElementById("list"),n=NEWS.filter(function(x){return cur==="الكل"||x.c===cur});
+  l.innerHTML=n.length?n.map(function(x){return '<div class="item"><span class="tag">'+x.c+'</span><h2>'+x.t+'</h2><p>'+x.d+'</p><time>'+x.h+'</time></div>'}).join(""):'<div class="empty">لا توجد أخبار في هذا القسم الآن.</div>';
+  Array.prototype.forEach.call(document.querySelectorAll("#tabs button"),function(b){b.setAttribute("aria-pressed",b.textContent===cur)});
+}
+var tabs=document.getElementById("tabs");
+CATS.forEach(function(c){var b=document.createElement("button");b.textContent=c;b.onclick=function(){cur=c;draw()};tabs.appendChild(b)});
+document.getElementById("ticker").textContent=NEWS.slice(0,3).map(function(x){return x.t}).join("  |  ");
+try{document.getElementById("date").textContent=new Date().toLocaleDateString("ar",{weekday:"long",year:"numeric",month:"long",day:"numeric"})}catch(e){}
+draw();
+</script>
+</body>
+</html>
